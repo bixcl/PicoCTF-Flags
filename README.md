@@ -6,16 +6,13 @@
 6- Serpentine : picoCTF{7h3_r04d_l355_7r4v3l3d_aa2340b2} : the code is ready , just you need it to run the function <br>
 7- basic-mod1 : picoCTF{r0und_n_r0und_79c18fb3} <br>
 8- Static ain't always noise : picoCTF{d15a5m_t34s3r_ae0b3ef2} || picoCTF{d15a5m_t34s3r_f6c48608} : use sh <bash file name> <static file > than search for the flag <br>
-i-
 ```bash
 sh ltdis.sh static
 ```
-ii-
-
 ```bash
 cat static.ltdis.strings.txt | grep "pico"
 ```
-iii-copy the flag and past it in web site <br> <br>
+    iii-copy the flag and past it in web site <br> <br>
 9- repetitions : picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_dfe803c6} || picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_492767d2} : need multible base 64 decode <br>
 10- ASCII Numbers : picoCTF{45c11_n0_qu35710n5_1ll_t311_y3_n0_l135_445d4180} : ASCII codenc jupiter.challenges.picoctf.org 29221 <br>
 11- mus1c : picoCTF{rrrocknrn0113r} : decrypt the song with https://codewithrockstar.com/online and convert the out from ascii to text <br>
@@ -39,31 +36,31 @@ chmod +x <file name> / ./<file name>
 20- Local Authority : picoCTF{j5_15_7r4n5p4r3n7_05df90c8} : enter random values than inspect the js file and you will get the id and pass <br>
 21- keygenme-py : picoCTF{1n_7h3_|<3y_of_01582419} : this one is hard, you can search the internet <br>
 22- tunn3l v1s10n : picoCTF{qu1t3_a_v13w_2020} <br>
-i- know that this is a bmp file by doing exiftool <br>
-ii- its not opening becouse the file is currepted <br>
-iii- try to fix the hex of the file by open it in < https://hexed.it/ > then comper the hex header with another image to fix it <br>
-iv-after that you can open the image in photopea < https://www.photopea.com/ > becouse it can open this type of file even the currepted file that we start with <br><br>
+    i- know that this is a bmp file by doing exiftool <br>
+    ii- its not opening becouse the file is currepted <br>
+    iii- try to fix the hex of the file by open it in < https://hexed.it/ > then comper the hex header with another image to fix it <br>
+    iv-after that you can open the image in photopea < https://www.photopea.com/ > becouse it can open this type of file even the currepted file that we start with <br><br>
 23- Get aHEAD : picoCTF{r3j3ct_th3_du4l1ty_2e5ba39f} : <br>
-i- use burb suite <br>
-ii- go to proxy and press open then a braowser will show up <past the link there> and go back burb suite <br>
-iii- from proxy page you will have new thing called get or post of something like that <br>
-iv- press right-click on that and then send to repeater <br>
-v- from repeater page change the POST to >> HEAD <br>
-vi- then press send <br>
-vii- you will have teh flag <br><br>
+    i- use burb suite <br>
+    ii- go to proxy and press open then a braowser will show up <past the link there> and go back burb suite <br>
+    iii- from proxy page you will have new thing called get or post of something like that <br>
+    iv- press right-click on that and then send to repeater <br>
+    v- from repeater page change the POST to >> HEAD <br>
+    vi- then press send <br>
+    vii- you will have teh flag <br><br>
 24- pw crack 1 : picoCTF{545h_r1ng1ng_1b2fd683} : <br>
-i- open the python file <br>
-ii- read the code and you will find the password = **8713** <br>
-iii- copy the password and run the python program using <br>
+    i- open the python file <br>
+    ii- read the code and you will find the password = **8713** <br>
+    iii- copy the password and run the python program using <br>
 ```bash
 python3 level1.py level1.flag.txt.enc
 ```
 <br>
 25- pw crack 2 : picoCTF{tr45h_51ng1ng_9701e681} : <br>
-i- open the python file <br>
-ii- read the code and you will find if statement to **chr** function copy all the **chr** and print it <br>
-iii- the output will be **4ec9** <br>
-iv- copy the password and run the python program using 
+    i- open the python file <br>
+    ii- read the code and you will find if statement to **chr** function copy all the **chr** and print it <br>
+    iii- the output will be **4ec9** <br>
+    iv- copy the password and run the python program using 
 
 ```bash
 python3 level2.py level2.flag.txt.enc
