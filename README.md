@@ -21,6 +21,7 @@ cat static.ltdis.strings.txt | grep "pico"
 13- crackme-py : picoCTF{1|\/|_4_p34|\|ut_a79b6c2d} : run the decode function <br>
 14- Magikarp Ground Mission : picoCTF{xxsh_0ut_0f_\/\/4t3r_540e4e79} || picoCTF{xxsh_0ut_0f_\/\/4t3r_c1754242} : p1/ls , p2/cd / , p3/ cd ~ <br>
 15- Glory of the Garden : picoCTF{more_than_m33ts_the_3y3657BaB2C} : 
+
 ```bash
 string garden.jpg | grep "pico"
 ```
@@ -36,12 +37,12 @@ chmod +x <file name> / ./<file name>
 19- includes : picoCTF{1nclu51v17y_1of2_f7w_2of2_df589022} : incpect the css code and the js <br>
 20- Local Authority : picoCTF{j5_15_7r4n5p4r3n7_05df90c8} : enter random values than inspect the js file and you will get the id and pass <br>
 21- keygenme-py : picoCTF{1n_7h3_|<3y_of_01582419} : this one is hard, you can search the internet <br>
-22- tunn3l v1s10n : picoCTF{qu1t3_a_v13w_2020} <br>
+22- tunn3l v1s10n : picoCTF{qu1t3_a_v13w_2020} <br><br>
     --- know that this is a bmp file by doing exiftool <br>
     --- its not opening becouse the file is currepted <br>
     --- try to fix the hex of the file by open it in < https://hexed.it/ > then comper the hex header with another image to fix it <br>
     --- after that you can open the image in photopea < https://www.photopea.com/ > becouse it can open this type of file even the currepted file that we start with <br><br>
-23- Get aHEAD : picoCTF{r3j3ct_th3_du4l1ty_2e5ba39f} : <br>
+23- Get aHEAD : picoCTF{r3j3ct_th3_du4l1ty_2e5ba39f} : <br><br>
     --- use burb suite <br>
     --- go to proxy and press open then a braowser will show up <past the link there> and go back burb suite <br>
     --- from proxy page you will have new thing called get or post of something like that <br>
@@ -49,7 +50,7 @@ chmod +x <file name> / ./<file name>
     --- from repeater page change the POST to >> HEAD <br>
     --- then press send <br>
     --- you will have teh flag <br><br>
-24- pw crack 1 : picoCTF{545h_r1ng1ng_1b2fd683} : <br>
+24- pw crack 1 : picoCTF{545h_r1ng1ng_1b2fd683} : <br><br>
     --- open the python file <br>
     --- read the code and you will find the password = **8713** <br>
     --- copy the password and run the python program using <br>
@@ -57,7 +58,7 @@ chmod +x <file name> / ./<file name>
 python3 level1.py level1.flag.txt.enc
 ```
 <br>
-25- pw crack 2 : picoCTF{tr45h_51ng1ng_9701e681} : <br>
+25- pw crack 2 : picoCTF{tr45h_51ng1ng_9701e681} : <br><br>
     --- open the python file <br>
     --- read the code and you will find if statement to **chr** function copy all the **chr** and print it <br>
     --- the output will be **4ec9** <br>
