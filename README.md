@@ -1,9 +1,15 @@
 1- PW Crack 3 : picoCTF{m45h_fl1ng1ng_6f98a49f}
+
 2- HashingJobApp : picoCTF{4ppl1c4710n_r3c31v3d_3eb82b73} : https://www.md5hashgenerator.com/
+
 3- PW Crack 4 : picoCTF{fl45h_5pr1ng1ng_cf341ff1}
+
 4- PW Crack 5 : picoCTF{h45h_sl1ng1ng_fffcda23} : use .strip() after inside for 
+
 5- runme.py : picoCTF{run_s4n1ty_run} : just run the python file 
+
 6- Serpentine : picoCTF{7h3_r04d_l355_7r4v3l3d_aa2340b2} : the code is ready , just you need it to run the function 
+
 7- basic-mod1 : picoCTF{r0und_n_r0und_79c18fb3}
 8- Static ain't always noise : picoCTF{d15a5m_t34s3r_ae0b3ef2} || picoCTF{d15a5m_t34s3r_f6c48608} : use sh <bash file name> <static file > than search for the flag 
     1-
