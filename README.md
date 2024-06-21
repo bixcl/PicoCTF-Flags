@@ -13,18 +13,19 @@
 7- basic-mod1 : picoCTF{r0und_n_r0und_79c18fb3}
 
 8- Static ain't always noise : picoCTF{d15a5m_t34s3r_ae0b3ef2} || picoCTF{d15a5m_t34s3r_f6c48608} : use sh <bash file name> <static file > than search for the flag 
-    1-
+
+i-
 
 ```bash
 sh ltdis.sh static
 ```
-    2- 
+ii-
 
 ```bash
 cat static.ltdis.strings.txt | grep "pico"
 ```
 
-    3- copy the flag and past it in web site
+iii-copy the flag and past it in web site
 
 9- repetitions : picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_dfe803c6} || picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_492767d2} : need multible base 64 decode
 
