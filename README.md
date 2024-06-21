@@ -39,8 +39,10 @@ iii-copy the flag and past it in web site
 
 14- Magikarp Ground Mission : picoCTF{xxsh_0ut_0f_\/\/4t3r_540e4e79} || picoCTF{xxsh_0ut_0f_\/\/4t3r_c1754242} : p1/ls , p2/cd / , p3/ cd ~
 
-15- Glory of the Garden : picoCTF{more_than_m33ts_the_3y3657BaB2C} : string garden.jpg | grep "pico"
-
+15- Glory of the Garden : picoCTF{more_than_m33ts_the_3y3657BaB2C} : 
+```bash
+string garden.jpg | grep "pico"
+```
 16- Lookey here : picoCTF{gr3p_15_@w3s0m3_4c479940} : cat anthem.flag.txt | grep "pico"
 
 17- Inspect HTML : picoCTF{1n5p3t0r_0f_h7ml_1fd8425b} : just inspect HTML
