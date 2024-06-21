@@ -12,6 +12,7 @@ sh ltdis.sh static
 ```bash
 cat static.ltdis.strings.txt | grep "pico"
 ```
+<br>
     iii-copy the flag and past it in web site <br> <br>
 9- repetitions : picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_dfe803c6} || picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_492767d2} : need multible base 64 decode <br>
 10- ASCII Numbers : picoCTF{45c11_n0_qu35710n5_1ll_t311_y3_n0_l135_445d4180} : ASCII codenc jupiter.challenges.picoctf.org 29221 <br>
