@@ -8,14 +8,14 @@
 8- Static ain't always noise : picoCTF{d15a5m_t34s3r_ae0b3ef2} || picoCTF{d15a5m_t34s3r_f6c48608} : use sh <bash file name> <static file > than search for the flag 
     1-
 
-    ```bash
-    sh ltdis.sh static
-    ```
+```bash
+sh ltdis.sh static
+```
     2- 
 
-    ```bash
-    cat static.ltdis.strings.txt | grep "pico"
-    ```
+```bash
+cat static.ltdis.strings.txt | grep "pico"
+```
 
     3- copy the flag and past it in web site
 
@@ -39,8 +39,7 @@
     1- know that this is a bmp file by doing exiftool 
     2- its not opening becouse the file is currepted
     3- try to fix the hex of the file by open it in < https://hexed.it/ > then comper the hex header with another image to fix it 
-
-    after that you can open the image in photopea < https://www.photopea.com/ > becouse it can open this type of file even the currepted file that we start with
+    4-after that you can open the image in photopea < https://www.photopea.com/ > becouse it can open this type of file even the currepted file that we start with
 
 23- Get aHEAD : picoCTF{r3j3ct_th3_du4l1ty_2e5ba39f} : 
     1- use burb suite 
@@ -56,17 +55,17 @@
     2- read the code and you will find the password = **8713**
     3- copy the password and run the python program using 
 
-    ```bash
-    python3 level1.py level1.flag.txt.enc
-    ```
+```bash
+python3 level1.py level1.flag.txt.enc
+```
 25- pw crack 2 : picoCTF{tr45h_51ng1ng_9701e681} :
     1- open the python file
     2- read the code and you will find if statement to **chr** function copy all the **chr** and print it 
     3- the output will be **4ec9**
     3- copy the password and run the python program using 
 
-    ```bash
-    python3 level2.py level2.flag.txt.enc
-    ```
+```bash
+python3 level2.py level2.flag.txt.enc
+```
 
  
