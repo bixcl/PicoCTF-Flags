@@ -11,6 +11,7 @@
 6- Serpentine : picoCTF{7h3_r04d_l355_7r4v3l3d_aa2340b2} : the code is ready , just you need it to run the function 
 
 7- basic-mod1 : picoCTF{r0und_n_r0und_79c18fb3}
+
 8- Static ain't always noise : picoCTF{d15a5m_t34s3r_ae0b3ef2} || picoCTF{d15a5m_t34s3r_f6c48608} : use sh <bash file name> <static file > than search for the flag 
     1-
 
@@ -26,16 +27,27 @@ cat static.ltdis.strings.txt | grep "pico"
     3- copy the flag and past it in web site
 
 9- repetitions : picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_dfe803c6} || picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_492767d2} : need multible base 64 decode
+
 10- ASCII Numbers : picoCTF{45c11_n0_qu35710n5_1ll_t311_y3_n0_l135_445d4180} : ASCII codenc jupiter.challenges.picoctf.org 29221
+
 11- mus1c : picoCTF{rrrocknrn0113r} : decrypt the song with https://codewithrockstar.com/online and convert the out from ascii to text
+
 12- The numbers : picoctf{thenumbersmason} : use the sub table - like the table of ceaser cipher
+
 13- crackme-py : picoCTF{1|\/|_4_p34|\|ut_a79b6c2d} : run the decode function 
+
 14- Magikarp Ground Mission : picoCTF{xxsh_0ut_0f_\/\/4t3r_540e4e79} || picoCTF{xxsh_0ut_0f_\/\/4t3r_c1754242} : p1/ls , p2/cd / , p3/ cd ~
+
 15- Glory of the Garden : picoCTF{more_than_m33ts_the_3y3657BaB2C} : string garden.jpg | grep "pico"
+
 16- Lookey here : picoCTF{gr3p_15_@w3s0m3_4c479940} : cat anthem.flag.txt | grep "pico"
+
 17- Inspect HTML : picoCTF{1n5p3t0r_0f_h7ml_1fd8425b} : just inspect HTML
+
 18- file-run1 : picoCTF{U51N6_Y0Ur_F1r57_F113_47cf2b7b} : chmod +x <file name> / ./<file name>
+
 19- includes : picoCTF{1nclu51v17y_1of2_f7w_2of2_df589022} : incpect the css code and the js
+
 20- Local Authority : picoCTF{j5_15_7r4n5p4r3n7_05df90c8} : enter random values than inspect the js file and you will get the id and pass
 
 21- keygenme-py : picoCTF{1n_7h3_|<3y_of_01582419} : this one is hard, you can search the internet
