@@ -55,33 +55,53 @@ iii-copy the flag and past it in web site
 
 22- tunn3l v1s10n : picoCTF{qu1t3_a_v13w_2020} 
     how i solve it ?     
-    1- know that this is a bmp file by doing exiftool 
-    2- its not opening becouse the file is currepted
-    3- try to fix the hex of the file by open it in < https://hexed.it/ > then comper the hex header with another image to fix it 
-    4-after that you can open the image in photopea < https://www.photopea.com/ > becouse it can open this type of file even the currepted file that we start with
+i- know that this is a bmp file by doing exiftool
+
+ii- its not opening becouse the file is currepted
+
+iii- try to fix the hex of the file by open it in < https://hexed.it/ > then comper the hex header with another image to fix it 
+
+iv-after that you can open the image in photopea < https://www.photopea.com/ > becouse it can open this type of file even the currepted file that we start with
+
 
 23- Get aHEAD : picoCTF{r3j3ct_th3_du4l1ty_2e5ba39f} : 
-    1- use burb suite 
-    2- go to proxy and press open then a braowser will show up <past the link there> and go back burb suite
-    3- from proxy page you will have new thing called get or post of something like that 
-    4- press right-click on that and then send to repeater
-    5- from repeater page change the POST to >> HEAD
-    6- then press send 
-    7- you will have teh flag
+
+i- use burb suite 
+
+ii- go to proxy and press open then a braowser will show up <past the link there> and go back burb suite
+
+iii- from proxy page you will have new thing called get or post of something like that 
+
+iv- press right-click on that and then send to repeater
+
+v- from repeater page change the POST to >> HEAD
+
+vi- then press send 
+
+vii- you will have teh flag
 
 24- pw crack 1 : picoCTF{545h_r1ng1ng_1b2fd683} :
-    1- open the python file
-    2- read the code and you will find the password = **8713**
-    3- copy the password and run the python program using 
+
+
+i- open the python file
+
+ii- read the code and you will find the password = **8713**
+
+iii- copy the password and run the python program using 
 
 ```bash
 python3 level1.py level1.flag.txt.enc
 ```
+
 25- pw crack 2 : picoCTF{tr45h_51ng1ng_9701e681} :
-    1- open the python file
-    2- read the code and you will find if statement to **chr** function copy all the **chr** and print it 
-    3- the output will be **4ec9**
-    3- copy the password and run the python program using 
+
+i- open the python file
+
+ii- read the code and you will find if statement to **chr** function copy all the **chr** and print it 
+
+iii- the output will be **4ec9**
+
+iv- copy the password and run the python program using 
 
 ```bash
 python3 level2.py level2.flag.txt.enc
