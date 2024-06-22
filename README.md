@@ -1,4 +1,4 @@
-# PicoCTF flags <br>
+# PicoCTF flags //writeups <br>
 **Notes before solving:**<br>
 --- anything i write it between < > mean that you need to write the name of the file giving to you 
 --- some challenges contain 2 or more so you need to apply the steps and solve it your self with your file 
