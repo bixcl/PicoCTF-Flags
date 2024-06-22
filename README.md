@@ -1,5 +1,7 @@
-# PicoCTF flags
-
+# PicoCTF flags <br>
+**Notes before solving:**<br>
+--- anything i write it between < > mean that you need to write the name of the file giving to you <br>
+--- some challenges contain 2 or more so you need to apply the steps and solve it your self with your file <br><br>
 1- PW Crack 3 : picoCTF{m45h_fl1ng1ng_6f98a49f}<br>
 2- HashingJobApp : picoCTF{4ppl1c4710n_r3c31v3d_3eb82b73} : https://www.md5hashgenerator.com/ <br>
 3- PW Crack 4 : picoCTF{fl45h_5pr1ng1ng_cf341ff1} <br>
@@ -69,5 +71,65 @@ python3 level1.py level1.flag.txt.enc
 ```bash
 python3 level2.py level2.flag.txt.enc
 ```
+<br>
+26- Mind your Ps and Qs : picoCTF{sma11_N_n0_g0od_45369387} :
 
- 
+```bash
+wget < link >
+cat values
+```
+
+--- you will find < C, E, N > <br   >
+--- open https://www.dcode.fr/rsa-cipher and past each value in there place and then press calculate / decrypt
+
+27- Tab. Tab, Attack : picoCTF{l3v3l_up!_t4k3_4_r35t!_76266e38} :  <br>
+
+--- first, get the file with **wget** <br>
+--- second, unzip the file with <br>
+```bash
+unzip <file-name >
+```
+third, just write cd - than space and press tab untl no file there to go <br>
+forth, in this step u will find a file with out extesion. this mean this file need to conver to executable file, do this<br>
+```bash
+chmod +x <file-name >
+```
+
+last, run the exicutable file by typing:
+
+```bash
+./file-name
+```
+
+28-Matryoshka doll : picoCTF{ac0072c423ee13bfc0b166af72e25b61} : <br>
+**Note** you need to install ***binwalk tool***
+--- first, download the image with **wget** <br>
+--- second, from the challend name we know that ther is file insider files so we will use the **binwalk** to extract it but if we use it like that nothin will happend, becouse we need to make sure that the extesion of file is right by writing: <br>
+```bash
+file <image-name >
+dolls.jpg: PNG image data, 594 x 1104, 8-bit/color RGBA, non-interlaced
+```
+the image in jpg type but the real type is png, so we need to change it by typing<br>
+```bash
+mv <old-image-name.jpg > <new-image-name.png > 
+``` 
+--- third, now we can use **binwalk** and we know that binwalk has a function called **-M** that can extract file from file form file that mean it can extract the file form matroyshka doll, so the command will be:<br>
+```bash
+binwalk -M -e <new-image-name.png >
+```
+--- forth, you will have lot of output in your terminal page but if you go all the way down, you will find somthing called ***Target File** , simply copy the file extesion and do this: <br>
+```bash
+cat /home/bxl/Desktop/pico2/_dolls.png.extracted/base_images/_2_c.jpg.extracted/base_images/_3_c.jpg.extracted/base_images/_4_c.jpg.extracted/flag.txt
+```
+**Note**<br>
+use the location of **Target File**
+--- last, you will find the flag 
+
+29- Insp3ct0r : picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?832b0699} : <br>
+--- easy challing, just inspect the page, the flage is splited into 3 part<br> 
+---- first one you will find it in HTML part<br> 
+---- second one you will find it in CSS part<br>
+---- third one you will find it in JS part<br>
+
+***Made by Bxl***
+
