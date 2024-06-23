@@ -166,5 +166,30 @@ use the location of **Target File** <br>
 ---- second one you will find it in CSS part<br>
 ---- third one you will find it in JS part<br>
 
+30- Warmed UP : picoCTF{61} <br>
+--- copy the hex number giver (**3D**) and use this website to convert it to decimal (base 19) : https://www.unitconverters.net/numbers/base-16-to-base-10.htm
+<br><br><br>
+
+31- 2warm : picoCTF{101010} : <br>
+--- u can solve it by using the tool that i made, you can find it in my github : @bixcl , the repository called (**D2B**) or u can use this website : https://www.unitconverters.net/numbers/base-10-to-base-2.htm
+<br><br><br>
+
+32- strings it : picoCTF{5tRIng5_1T_827aee91} <br>
+--- first, you need to download the file given <br>
+```bash
+strings strings | grep pico
+```
+<br><br><br>
+
+33- Easy1 : picoCTF{CRYPTOISFUN} => easy one just you need to use this web site or even use the table given to decrypt the message.<br>
+```bash
+website : https://www.boxentriq.com/code-breaking/one-time-pad
+```
+
+<br><br><br>
+
+
 ***Made by Bxl***
+
+
 
