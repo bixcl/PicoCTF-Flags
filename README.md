@@ -194,14 +194,22 @@ picoCTF{my_first_heap_overflow_c3935a08}
 ```
 
 <br><br><br>
-35- at first i solve it using brute force by tring al choises but then after read the code file and knowing that it writen in C, i understande that i should choose the words that contain something could intract with C lang like % <br>
+35- format string 0 : at first i solve it using brute force by tring al choises but then after read the code file and knowing that it writen in C, i understande that i should choose the words that contain something could intract with C lang like % <br>
 ```bash
 picoCTF{7h3_cu570m3r_15_n3v3r_SEGFAULT_a1d85b3e}
 
 the flag could be diffrent
 ```
+<br><br><br>
 
+36 - WebDecode : <br> 1- go to the website<br>2- go to about page<br>3- inspect this page and you will find encrypted code in inspector page<br>4- copy this link and paste it to any base64 decrypter
 
+```bash
+picoCTF{web_succ3ssfully_d3c0ded_f6f6b78a}
+
+the flag could be diffrent
+```
+<br><br><br>
 ***Made by Bxl***
 
 
