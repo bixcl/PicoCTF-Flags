@@ -216,7 +216,7 @@ the flag could be diffrent
 picoCTF{pr3tty_c0d3_622b2c88}
 ```
 <br><br><br>
-37-Time Machine:install git by
+38-Time Machine:install git by
 ```bash
 sudo apt install git
 ```
@@ -226,6 +226,19 @@ git log
 ```
 ```bash
 picoCTF{t1m3m@ch1n3_e8c98b3a}
+```
+<br><br><br>
+39-Super SSH:
+```bash
+ssh ctf-player@titan.picoctf.net -p 52828
+```
+```bash
+picoCTF{s3cur3_c0nn3ct10n_65a7a106}
+```
+<br><br><br>
+40- introtobutp : intersting one, you need to download burp suite and go to proxy tab than intercption on, than open the burp suite browser and paste url than enter, the site will load so you need to return to burp and press forword, than fill all filed and press forword than the site will ask for OTP, enter anything and press enter but don't do forword yet, go back to burp suite and you will see some info go down and change otp to otgp than press forword
+```bash
+picoCTF{#0TP_Bypvss_SuCc3$S_9090d63c}
 ```
 <br><br><br>
 ***Made by Bxl***
