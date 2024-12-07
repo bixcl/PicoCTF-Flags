@@ -216,6 +216,18 @@ the flag could be diffrent
 picoCTF{pr3tty_c0d3_622b2c88}
 ```
 <br><br><br>
+37-Time Machine:install git by
+```bash
+sudo apt install git
+```
+than inside the unzipped folder write this:
+```bash
+git log
+```
+```bash
+picoCTF{t1m3m@ch1n3_e8c98b3a}
+```
+<br><br><br>
 ***Made by Bxl***
 
 
