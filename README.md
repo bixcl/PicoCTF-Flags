@@ -210,6 +210,12 @@ picoCTF{web_succ3ssfully_d3c0ded_f6f6b78a}
 the flag could be diffrent
 ```
 <br><br><br>
+37-
+<br>ispect the page and you will find it within HTML text
+```bash
+picoCTF{pr3tty_c0d3_622b2c88}
+```
+<br><br><br>
 ***Made by Bxl***
 
 
