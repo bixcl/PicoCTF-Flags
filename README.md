@@ -188,9 +188,17 @@ website : https://www.boxentriq.com/code-breaking/one-time-pad
 
 <br><br><br>
 
-33- Heap 0 :(the flag could differ) => yout need to make buffer overflow by entring buffer page (2) and give latters more than 64 time, after that just press enter and the flag will be availabe if you go to (4).<br>
+34- Heap 0 :(the flag could differ) => yout need to make buffer overflow by entring buffer page (2) and give latters more than 64 time, after that just press enter and the flag will be availabe if you go to (4).<br>
 ```bash
 picoCTF{my_first_heap_overflow_c3935a08}
+```
+
+<br><br><br>
+35- at first i solve it using brute force by tring al choises but then after read the code file and knowing that it writen in C, i understande that i should choose the words that contain something could intract with C lang like % <br>
+```bash
+picoCTF{7h3_cu570m3r_15_n3v3r_SEGFAULT_a1d85b3e}
+
+the flag could be diffrent
 ```
 
 
