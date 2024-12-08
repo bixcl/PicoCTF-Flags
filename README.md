@@ -255,6 +255,13 @@ where flag2of2-final.pdf is the orginal pdf file and , flag.png is the converted
 picoCTF{f1u3n7_1n_pn9_&_pdf_724b1287}
 ```
 <br><br><br>
+41 - dont-use-client-side : <br>
+1- inspect the page and expand all under the script, you will find check statement<br>
+2- sort this check based on split number<br>
+```bash
+picoCTF{no_clients_plz_7723ce}
+```
+<br><br><br>
 ***Made by Bxl***
 
 
