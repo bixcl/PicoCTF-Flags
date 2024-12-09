@@ -277,7 +277,8 @@ picoCTF{3ndi4n_sw4p_su33ess_91bc76a4}
 
 ```
 <br>
-43 - :
+43 - Collaborative Development:
+
 ```text
 this challeng is fantastic to learn more about git command, it will teach you how to switch betweem branches
 ```
@@ -293,6 +294,10 @@ git switch <branch3 name>
 git show => part two of the flag
 git switch <branch3 name>
 git show => part three of the flag
+```
+
+```flag
+picoCTF{t3@mw0rk_m@k3s_th3_dr3@m_w0rk_7ffa0077}
 ```
 ***Made by Bxl***
 
