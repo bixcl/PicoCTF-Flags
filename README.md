@@ -276,7 +276,24 @@ the flag could be diffrent
 picoCTF{3ndi4n_sw4p_su33ess_91bc76a4}
 
 ```
-<br><br><br>
+<br>
+43 - :
+```text
+this challeng is fantastic to learn more about git command, it will teach you how to switch betweem branches
+```
+
+```bash
+cd drop-in/
+git log
+git show
+git brach -a
+git switch <branch1 name>
+git show => part one of the flag
+git switch <branch3 name>
+git show => part two of the flag
+git switch <branch3 name>
+git show => part three of the flag
+```
 ***Made by Bxl***
 
 
