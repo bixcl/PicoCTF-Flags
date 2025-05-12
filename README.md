@@ -1,37 +1,7 @@
-# PicoCTF flags //writeups <br>
-**Notes before solving:**<br>
---- anything i write it between < > mean that you need to write the name of the file giving to you 
---- some challenges contain 2 or more so you need to apply the steps and solve it your self with your file 
-<br><br><br>
-1- PW Crack 3 : picoCTF{m45h_fl1ng1ng_6f98a49f}
-<br><br><br>
-2- HashingJobApp : picoCTF{4ppl1c4710n_r3c31v3d_3eb82b73} : https://www.md5hashgenerator.com/ 
-<br><br><br>
-3- PW Crack 4 : picoCTF{fl45h_5pr1ng1ng_cf341ff1} 
-<br><br><br>
-4- PW Crack 5 : picoCTF{h45h_sl1ng1ng_fffcda23} : use .strip() after inside for 
-<br><br><br>
-5- runme.py : picoCTF{run_s4n1ty_run} : just run the python file 
-<br><br><br>
-6- Serpentine : picoCTF{7h3_r04d_l355_7r4v3l3d_aa2340b2} : the code is ready , just you need it to run the function 
-<br><br><br>
-7- basic-mod1 : picoCTF{r0und_n_r0und_79c18fb3} 
-<br><br><br>
-8- Static ain't always noise : picoCTF{d15a5m_t34s3r_ae0b3ef2} || picoCTF{d15a5m_t34s3r_f6c48608} : use sh <bash file name> <static file > than search for the flag <br>
-```bash
-sh ltdis.sh static
-```
-```bash
-cat static.ltdis.strings.txt | grep "pico"
-```
-<br>
-    --- copy the flag and past it in web site 
+in this repo i explain how to solve some of PicoCTF challenge, some of them i upload only the flage, and some i explain in short.
 
-<br><br><br>
-9- repetitions : picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_dfe803c6} || picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_492767d2} : need multible base 64 decode 
-<br><br><br>
-10- ASCII Numbers : picoCTF{45c11_n0_qu35710n5_1ll_t311_y3_n0_l135_445d4180} : ASCII codenc jupiter.challenges.picoctf.org 29221 
-<br><br><br>
+
+
 11- mus1c : picoCTF{rrrocknrn0113r} : decrypt the song with https://codewithrockstar.com/online and convert the out from ascii to text 
 <br><br><br>
 12- The numbers : picoctf{thenumbersmason} : use the sub table - like the table of ceaser cipher 
