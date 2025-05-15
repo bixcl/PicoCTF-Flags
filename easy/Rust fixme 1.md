@@ -1,4 +1,4 @@
-resource 
+<b>resource<b><br> 
 1-Gemini<br>
 2-println -> https://doc.rust-lang.org/std/macro.println.html <br>
 
